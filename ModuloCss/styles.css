@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(180, 43, 43);
+}
+
+
+.title{
+    font-size: 3em;
+    color: green;
+}
+
+.logo{
+width: 200px;
+
+}
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1px 1em 2px 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.cards:hover{
+    background-color: blue;
+}
+
+#principal{
+    font-size: 4.5em;
+}
+ .titulos{
+    border: 2px solid;
+    width: 55vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+ }
+
+ #cards-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 5px solid rgb(106, 90, 90);
+    border-radius:15px;
+    padding: 2em;
+    display: flex;
+    flex direction: row;
+    justify-content:space-evenly;
+ }
